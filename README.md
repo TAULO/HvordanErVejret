@@ -8,4 +8,4 @@ lives, experiences, and personal stories of its hosts and creators, ***Hans-Pede
 
 ## Technologies
 
-The application is powered by [Nuxt.js](https://nuxt.com/)
+The application is powered by [Nuxt.js](https://nuxt.com/)!
