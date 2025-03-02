@@ -6,14 +6,14 @@ import applePodcastIcon from "~/assets/icons/apple-podcast-purple.png"
 </script>
 
 <template>
-  <div class="w-full h-[500px] bg-primary flex justify-center">
-    <div class="relative grid max-w-[49rem] h-[500px] mt-[-100px] z-10 left-0 lg:left-20">
+  <div class="w-full bg-primary flex justify-center pb-20">
+    <div class="relative grid max-w-[49rem] h-full mt-[-100px] z-10 left-0 lg:left-20">
       <div class="absolute hidden lg:block z-10 lg:-left-50 lg:-top-5">
         <img src="~/public/phone-podcast.avif" alt="Podcast" class="w-auto h-[600px]"/>
       </div>
       <div class="bg-white border-2 border-black-200 rounded-4xl m-10 lg:pr-10">
-        <div class="grid relative justify-items-center text-center m-10 lg:left-10">
-          <h2 class="text-lg sm:text-2xl font-bold">Hvordan Er Vejret Podcast</h2>
+        <div class="grid relative justify-items-center text-center mx-10 mt-10 lg:m-10 lg:left-10">
+          <h2 class="text-2xl sm:text-4xl font-bold">Hvordan Er Vejret Podcast</h2>
           <p class="mt-10 tracking-wide leading-loose">
             Named by Oprah as a thought leader for the next generation and owner of one of Inc.’s 500 fastest growing
             companies, Marie Forleo’s goal is to help you become the person you most want to be. Marie and her guests
