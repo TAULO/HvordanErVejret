@@ -7,7 +7,7 @@ const {tiktok, linkedin, spotify, youtube} = services.getServices
 </script>
 
 <template>
-  <footer class="bg-secondary relative left-0 bottom-0 z-100 w-full p-5">
+  <footer class="bg-primary relative left-0 bottom-0 z-100 w-full p-5 border-t-1">
     <div class="flex h-full justify-center items-center gap-5">
       <!--      <img src="../assets/footer-icons-draw/linkedin-draw.png"-->
       <!--           alt=""-->
