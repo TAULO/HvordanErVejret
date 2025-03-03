@@ -10,7 +10,7 @@
     --color-test: #493729ff;
 
     /* fonts */
-    --font-display: "Kalam", "San Serif", "Times New Roman", serif;
+    --font-primary: "Cavolini", "San Serif", "Times New Roman", serif;
 }
 
 @font-face {

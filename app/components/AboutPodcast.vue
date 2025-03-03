@@ -12,10 +12,10 @@ const { spotify, youtube, applePodcasts } = services.getServices
 
 
 <template>
-  <div class="w-full bg-primary flex justify-center pb-20">
+  <div class="w-full bg-primary flex justify-center pb-20" id="about-podcast">
     <div class="relative grid max-w-[49rem] h-full z-10 left-0 lg:left-20 animate-fade-up">
-      <div class="absolute hidden lg:block z-10 lg:-left-50 lg:-top-5 animate-fade-up">
-        <img src="~/public/phone-podcast.avif" alt="Podcast" class="w-auto h-[600px]"/>
+      <div class="absolute hidden lg:block z-11 lg:-left-48 lg:-top-5 animate-fade-up -rotate-2">
+        <img src="../public/phone-podcast.png" alt="Podcast" class="w-auto h-[600px]"/>
       </div>
       <div class="bg-white rounded-4xl m-10 lg:pr-10 shadow-xl">
         <div class="grid relative justify-items-center text-center mx-10 mt-10 lg:m-10 lg:left-10">
