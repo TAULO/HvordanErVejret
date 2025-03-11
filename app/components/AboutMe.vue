@@ -4,13 +4,15 @@
 
 <template>
   <div class="w-full bg-primary flex justify-center items-center flex-col p-10" id="about-me">
-    <div class="flex flex-col z-5 m-15 gap-y-20 max-w-[100rem] w-full">
-      <div class="flex flex-col max-w-[65rem] lg:flex-row justify-center items-center animate-fade-up border-secondary border-8 rounded-full overflow-hidden">
-        <div class="p-10 sm:p-0 sm:w-5/12">
-          <h2 class="text-6xl sm:text-9xl text-center sm:text-start text-secondary">
-            I'm Marie.
+    <div class="flex flex-col z-5 m-15 max-w-[100rem] w-full gap-15 xl:gap-10">
+      <div class="flex flex-col  lg:flex-row justify-center items-center border-secondary border-4 rounded-4xl shadow-lg animate-fade-up overflow-hidden">
+        <div class="p-10 sm:p-0 sm:w-5/12 flex flex-col gap-y-5">
+          <h2 class="text-4xl sm:text-7xl text-center sm:text-start text-secondary font-bold">
+            Martin
+            <br>
+            Fromberg
           </h2>
-          <p class="text-lg leading-loose text-pretty">
+          <p class="text-lg leading-loose text-pretty text-gray-700">
             My hunch is someone you trust mentioned my name, or you stumbled upon one of my videos, quotes, or articles
             online.
             Whatever path you took, I’m really glad you’re here. This site is full of incredible resources and ideas
@@ -20,18 +22,19 @@
             we can start something beautiful together.
           </p>
         </div>
-        <div class="relative top-10">
+        <div class="relative top-5 rounded-b-full overflow-hidden">
           <img src="../public/marie-placeholder.avif" alt="me" class="object-cover" />
         </div>
       </div>
       <!--      -->
-      <div class="flex flex-col max-w-[65rem] lg:flex-row justify-center items-center animate-fade-up self-end border-secondary border-8 rounded-full">
-        <div class="p-10 sm:p-0 sm:w-5/12 lg:order-2">
-          <h2 class="text-6xl sm:text-9xl text-center sm:text-start lg:text-end text-secondary">
-            <span class="sm:mr-40">I'm</span>
-            Marie.
+      <div class="flex flex-col lg:flex-row justify-center items-center border-secondary border-4 rounded-4xl shadow-lg animate-fade-up overflow-hidden">
+        <div class="p-10 sm:p-0 sm:w-5/12 lg:order-2 flex flex-col gap-y-5">
+          <h2 class="text-4xl sm:text-7xl text-center sm:text-start text-secondary font-bold">
+            Hans Peder
+            <br>
+            Andersen
           </h2>
-          <p class="text-lg leading-loose text-pretty">
+          <p class="text-lg leading-loose text-pretty text-gray-700">
             My hunch is someone you trust mentioned my name, or you stumbled upon one of my videos, quotes, or articles
             online.
             Whatever path you took, I’m really glad you’re here. This site is full of incredible resources and ideas
@@ -41,7 +44,7 @@
             we can start something beautiful together.
           </p>
         </div>
-        <div>
+        <div class="relative right-0 sm:right-10 top-5 rounded-b-full overflow-hidden">
           <img src="../public/marie-placeholder.avif" alt="me">
         </div>
       </div>

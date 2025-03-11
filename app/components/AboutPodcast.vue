@@ -19,7 +19,7 @@ const { spotify, youtube, applePodcasts } = services.getServices
       </div>
       <div class="bg-white rounded-4xl m-10 lg:pr-10 shadow-xl">
         <div class="grid relative justify-items-center text-center mx-10 mt-10 lg:m-10 lg:left-10">
-          <h2 class="text-2xl sm:text-4xl text-gray-800 font-medium">Hvordan Er Vejret Podcast</h2>
+          <h2 class="text-2xl sm:text-4xl text-secondary font-bold">Hvordan Er Vejret Podcast</h2>
           <p class="mt-10 tracking-wide leading-loose text-gray-700">
             Named by Oprah as a thought leader for the next generation and owner of one of Inc.’s 500 fastest growing
             companies, Marie Forleo’s goal is to help you become the person you most want to be. Marie and her guests

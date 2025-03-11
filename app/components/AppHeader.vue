@@ -33,12 +33,12 @@ function scrollToElementWithID(id: string) {
             />
           </svg>
           <p
-              class="underline-offset-5 decoration-4 hover:underline hover:cursor-pointer hidden lg:block"
+              class="underline-offset-5 decoration-4 hover:underline rounded-full hover:cursor-pointer hidden lg:block"
               @click="scrollToElementWithID('about-me')">
             Os
           </p>
         </div>
-        <div class="sm:border-l-4 h-6/12"></div>
+        <div class="sm:border-l-4 h-6/12 rounded-full"></div>
         <div class="flex items-center gap-3">
           <svg xmlns="http://www.w3.org/2000/svg"
                fill="none" viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ function scrollToElementWithID(id: string) {
             Podcast
           </p>
         </div>
-        <div class="sm:border-l-4 h-6/12"></div>
+        <div class="sm:border-l-4 h-6/12 rounded-full"></div>
         <div class="flex items-center gap-3">
           <svg
               xmlns="http://www.w3.org/2000/svg"
