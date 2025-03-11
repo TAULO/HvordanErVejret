@@ -8,7 +8,7 @@ const {tiktok, linkedin, spotify, youtube} = services.getServices
 
 <template>
   <footer class="bg-primary relative left-0 bottom-0 z-100 w-full p-10">
-    <hr class="relative bottom-10 text-gray-400" />
+    <hr class="relative bottom-10 text-secondary/30" />
     <div class="flex items-center justify-center flex-col gap-y-10">
       <div class="flex justify-center items-center gap-5">
         <!-- ROUND ICONS -->
