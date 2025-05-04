@@ -7,7 +7,7 @@
     <div class="flex flex-col z-5 m-15 max-w-[100rem] w-full gap-15 xl:gap-10">
       <div class="flex flex-col  lg:flex-row justify-center items-center border-secondary border-4 rounded-4xl shadow-lg animate-fade-up overflow-hidden">
         <div class="p-10 sm:p-0 sm:w-5/12 flex flex-col gap-y-5">
-          <h2 class="text-4xl sm:text-7xl text-center sm:text-start text-secondary font-bold">
+          <h2 class="text-6xl sm:text-7xl text-center sm:text-start pt-8 lg:pt-0 text-secondary font-bold">
             Martin
             <br>
             Fromberg
@@ -29,7 +29,7 @@
       <!--      -->
       <div class="flex flex-col lg:flex-row justify-center items-center border-secondary border-4 rounded-4xl shadow-lg animate-fade-up overflow-hidden">
         <div class="p-10 sm:p-0 sm:w-5/12 lg:order-2 flex flex-col gap-y-5">
-          <h2 class="text-4xl sm:text-7xl text-center sm:text-start text-secondary font-bold">
+          <h2 class="text-6xl sm:text-7xl text-center sm:text-start pt-8 lg:pt-0 text-secondary font-bold">
             Hans Peder
             <br>
             Andersen

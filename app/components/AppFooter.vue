@@ -29,11 +29,11 @@ const {tiktok, linkedin, spotify, youtube} = services.getServices
              class="h-10 object-contain transition-transform duration-300 ease-in-out hover:scale-125 hover:cursor-pointer"
              @click="openServiceInNewTab(spotify.url)">
       </div>
-      <div class="flex gap-3 items-center justify-center font-bold text-gray-700">
+      <div class="flex gap-3 items-center justify-center font-bold text-secondary/70">
         <p>Komedie</p>
-        <div class="rounded-full h-1 w-1 bg-gray-700"></div>
+        <div class="rounded-full h-1 w-1 bg-secondary"></div>
         <p>Kultur</p>
-        <div class="rounded-full h-1 w-1 bg-gray-700"></div>
+        <div class="rounded-full h-1 w-1 bg-secondary"></div>
         <p>Personlige Historier</p>
       </div>
     </div>
